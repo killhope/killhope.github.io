@@ -1,37 +1,84 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/killhope/killhope.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# 个人信息
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ - 王威旺/男/1991 
+ - 本科/东北电力大学电子信息科学与技术 
+ - 工作年限：6年
+ - 期望职位：Java高级程序员
+ - 期望薪资：税前月薪25k
+ - 期望城市：北京
 
-### Markdown
+# 联系方式
+- 手机：13110240822
+- Email：wangweiwang1991@qq.com
+- 微信号：www775848101
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# 技能清单
 
-# Header 1
-## Header 2
-### Header 3
+- 后端框架：Spring MVC/Spring Boot/Spring Cloud/Dubbo/ZooKeeper/MyBatis/Redisson/RabbitMQ
+- 开发工具：IntelliJ IDEA/MyEclipse
+- 数据库相关：MySQL/Redis/MongoDB
+- 版本管理、文档和自动化部署工具：Git/Svn/Maven/Confluence/Jira/Jenkins
+- 单元测试：JUnit
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+# 工作经历
 
-**Bold** and _Italic_ and `Code` text
+## 北京中烟云链数据科技有限公司 （ 2017年5月 ~ 2019年11月 ）
 
-[Link](url) and ![Image](src)
-```
+### 中烟云链商户系统项目
+#### 软件环境
+现系统：SpringMVC
+计划重构系统：Spring Cloud全家桶+Redis+MongoDB+RabbitMQ
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+该项目主要为烟草店提供销售过程中的各种功能，这个项目中，最大的问题就是代码老旧，开发不规范，导致并发性能极差、系统响应超时频发、数据库大量慢查询、数据可能错乱等问题。
+我主要负责系统功能的优化与新功能的开发，主要负责信息同步、自动同步库存、库存调整、开机时长广告时长统计等功能。通过优化sql、添加索引，重构代码等多种方式，改善了接口性能。例如商品信息同步接口开始的并发为5的时候，系统就会出现响应超时等问题，改造之后tps在200以上。
+在该项目的开发过程中，深刻的认识到规范开发的重要性，以及技术更新迭代对开发人员的解放。规范开发，保证代码质量是编程人员的职业操守，单纯的应付差事是极不明智的选择。
 
-### Jekyll Themes
+### 烟草数据同步系统
+#### 软件环境
+Spring Boot+Redis+MongoDB
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/killhope/killhope.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+该项目的功能主要有处理烟草局订单数据，以及为烟草局提供商户的烟草库存、销量等数据。这个项目中，主要面临的烟草局数据实时性不高的问题，需要保证系统执行过程中的的稳定性以及重复执行的安全性。
 
-### Support or Contact
+### 金投手存管版项目 
+#### 软件环境
+Dubbo+ZooKeeper+SpringMVC+Swagger+Redis+MongoDB+RabbitMQ
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+该项目为互联网金融项目，为用户提供公开透明、合法合规的的金融服务。采用了比较常见的前后端分离的分布式架构。我在工作中主要负责为前端同事提供接口。包含个人中心信息、产品信息、用户下单、优惠券发放、节日活动等功能。
+在项目开发工程中，了解了分布式开发过程中遇到的问题以及解决方法，适应了Scrum的开发流程。
+
+
+## 玖富联银科技有限公司 （ 2016年2月 ~ 2017年4月 ）
+
+### 玖富小金票
+
+#### 软件环境
+1. 用户投资平台Dubbo+ZooKeeper+SpringMVC 
+2. 后台管理系统Hibernate+ Spring+ Struts2
+
+该项目为互联网金融项目，为用户提供先生票据贷服务。我在此项目中主要负责玖富小金票项目各个模块的开发与维护。用户投资平台主要参与了标的的展示、用户下单、优惠券的发放、用户个人中心、节日活动等功能。后台管理系统主要参与了发标、订单管理、报表、优惠券的发放等功能。
+在工作的过程中，适应了由传统项目到互联网项目开发转变过程中遇到的诸多问题。适应了敏捷开发，快速迭代的模式。对分布式架构有了初步的了解。
+
+## 北京华路时代信息技术有限公司 （ 2013年9月 ~ 2015年11月 ）
+
+### 北京市企业信用信息网
+
+#### 软件环境
+Spring+ Struts2+Ibatis +JSP+CSS+JavaScrip+Oracle
+
+该项目为北京是企业信用信息网提供开发服务。
+我在其中主要负责相关模块的开发以及文档的编写，配合测试人员，进行bug修复等工作。参与的主要模块包括：企业登记信息查询模块，经营异常名录模块，无照经营查处模块，黑名单模块，管理员的消息管理模块。
+
+### 工商注册知识库管理系统
+#### 软件环境
+Spring+ Struts2+Ibatis +JSP+CSS+JavaScrip+MySQL
+
+该项目主要负责海淀工商分局内部业务查询、业务管理、考勤管理、用户管理功能的实现。
+我在开发过程中主要包括菜单模块、全文检索模块、住所备案模块、登记业务模块以及考勤管理模块等相关功能模块。
+
+* * *
+
+# 致谢
+感谢您花时间阅读我的简历，期待能有机会和您共事。
